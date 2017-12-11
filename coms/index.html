@@ -1,0 +1,440 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="pragma" content="no-cache"/>
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta content="telephone=no" name="format-detection"/>
+    <title>嗨吃一夏</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/swiper.min.css">
+    <script>
+        (function (doc, win) {
+            var docEl     = doc.documentElement,
+                resizeEvt = "onorientationchange" in window ? "orientationchange" : "resize",
+                recalc    = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + "px";
+                };
+            recalc();
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+        })(document, window);
+    </script>
+    <script type="text/javascript">
+        function doShare() {
+
+            // 分享小图
+            var smallImage = 'small.jpg';
+            // 中间页大图
+            var image = 'big.jpg';
+            // 分享文字
+            var smallContent = '嗨吃一夏';
+            // 中间页文字
+            var content = '爆款美食 1元开吃';
+            // 本页地址
+            var locationPageUrl = window.location.href;
+            var locationUrl = locationPageUrl.substring(0, locationPageUrl.lastIndexOf("/") + 1);
+
+            var param = {};
+            param.smallImageurl = encodeURIComponent(locationUrl + smallImage);
+            param.imageurl = encodeURIComponent(locationUrl + image);
+            param.link = encodeURIComponent(locationPageUrl);
+            param.content = encodeURIComponent(content);
+            param.smallContent = encodeURIComponent(smallContent);
+            param.sharingUrl_CL5 = encodeURIComponent('https://ssl.mall.cmbchina.com/_cl5_/product/promotionsharing?content=' + param.content + '&image=' + param.imageurl + '&link=' + param.link);
+            param.sharingUrl_SJ = encodeURIComponent('https://ssl.mall.cmbchina.com/_sj_/product/promotionsharing?content=' + param.content + '&image=' + param.imageurl + '&link=' + param.link);
+            commonShare(param);
+
+        }
+
+    </script>
+    <script type="text/javascript" src="https://tajs.qq.com/stats?sId=59137468" charset="UTF-8" data-description="流量统计"></script>
+</head>
+<body>
+
+<!-- 头部header  必加！！！！ -->
+<header id="commonTop">
+    <div class="head">
+        <a href="#" onClick="javascript:window.location.href = 'cmblife://popweb';"></a> 掌上生活
+        <a class="share" href="javascript:;" onclick="doShare()"></a>
+    </div>
+</header>
+
+
+<!-- 导航A  START -->
+<nav id="navA">
+    <div data-href="#anchor11" class='act'>锚点A</div>
+    <div data-href="#anchor2">锚点B</div>
+    <div data-href="#anchor3">锚点C</div>
+    <div data-href="#anchor4">锚点D</div>
+    <div data-href="#anchor5">锚点E</div>
+</nav>
+<!-- 导航A END -->
+
+
+<!-- 100%宽度图片无链接模块 -->
+<section class="container" >
+    <img src="images/bg_01.jpg">
+    <img src="images/bg_01.jpg">
+    <img src="images/bg_01.jpg">
+    <img src="images/bg_01.jpg">
+</section>
+
+<!-- 导航B START -->
+<div id="navB-cont" style="height:1.0rem">
+    <nav id="navB" class="bCover clearfix" style="height:1rem;background-image:url(images/navB.jpg);">
+        <div data-href="#anchor1" class='act'></div>
+        <div data-href="#anchor2"></div>
+        <div data-href="#anchor3"></div>
+        <div data-href="#anchor4"></div>
+    </nav>
+</div>
+<!-- 导航B END -->
+
+
+<!-- 100%宽度图片含链接模块 START-->
+<section class="container" >
+
+    <a href="http://www.baidu.com">
+        <img src="images/bg_02.jpg">
+    </a>
+
+    <a href="http://www.baidu.com">
+        <img src="images/bg_02.jpg">
+    </a>
+
+    <a href="http://www.baidu.com">
+        <img src="images/bg_02.jpg" id="anchor11">
+    </a>
+
+</section>
+
+<!-- 100%宽度图片含链接模块 END-->
+
+<!-- 点击复制券码模块 START -->
+<section class='container'>
+    <img src="images/bg_111.jpg" class="copyBtn" data-key="这是一个券码，替换这里即可AAA">
+    <img src="images/bg_111.jpg" class="copyBtn" data-key="这是一个券码，替换这里即可BBB">
+</section>
+<!-- 点击复制券码模块 END -->
+
+<!-- 一行并排两个链接 模块 START -->
+<section class="container bCover clearfix col2-link" style="background-image:url(images/bg_03.jpg);height:3rem;" >
+    <a href="http://www.baidu.com"></a>
+    <a href="http://www.baidu.com"></a>
+</section>
+<!-- 一行并排两个链接 模块 END -->
+
+<!-- 一行并排三个链接 模块 START -->
+<section class="container bCover clearfix col3-link" style="background-image:url(images/bg_04.jpg);height:3rem;" id="anchor1">
+    <a href="http://www.baidu.com"></a>
+    <a href="http://www.baidu.com"></a>
+    <a href="http://www.baidu.com"></a>
+</section>
+<!-- 一行并排三个链接 模块 END -->
+
+
+
+<!-- 按日期显示 模块 START -->
+<section class="container bCover" style="background-image:url(images/bg_05.jpg);height:0.79rem;overflow:hidden;">
+    <ul id="dateCont" class="clearfix">
+        <li data-date="0801" class="act">08.01</li>
+        <li data-date="0802">08.02</li>
+        <li data-date="0803">08.03</li>
+        <li data-date="0804">08.04</li>
+        <li data-date="0805">08.05</li>
+        <li data-date="0806">08.06</li>
+        <li data-date="0807">08.07</li>
+    </ul>
+</section>  
+
+<section class="container" id="timeShow_block" >
+    <div style="background-image:url(images/ms/0725.jpg);" class="act" date-datemark="0801">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-P08-0C1_115"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-Y0A-69O_152"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-120-6EP_147"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-A1U-24S_129"></a>
+    </div>
+    
+    <div style="background-image:url(images/ms/0726.jpg);" date-datemark="0802">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-J02-6HF_054"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-Q1M-6HJ_113"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-W0S-6HE_079"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-M13-6H8_140"></a>
+    </div>
+    
+    <div style="background-image:url(images/ms/0727.jpg);" date-datemark="0803">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-P08-0BV_115"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-Z1P-6HP_149"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-T1R-6HG_054"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-70Y-6H9_093"></a>
+    </div>
+    
+    <div style="background-image:url(images/ms/0728.jpg);" date-datemark="0804">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-P08-4YH_115"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-019-6HM_111"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-120-6EO_147"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-A1U-13R_129"></a>
+    </div>
+    
+    <div style="background-image:url(images/ms/0729.jpg);" date-datemark="0805">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-T12-6HI_079"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-V1Y-6HO_111"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-70Y-4RS_093"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-R01-6HH_079"></a>
+    </div>
+    
+    <div style="background-image:url(images/ms/0730.jpg);" date-datemark="0806">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-P08-0BZ_115"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-G14-3AX_122"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-M0G-67R_082"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-Q13-6HL_111"></a>
+    </div>
+    
+    <div style="background-image:url(images/ms/0731.jpg);" date-datemark="0807">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-11M-6HN_111"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-120-6EK_147"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-70Y-6HA_093"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-Z13-27C_129"></a>
+    </div>
+    
+</section>
+
+<!-- 按日期显示 模块 END -->
+
+<!-- 按点击显示  模块  START-->
+<section class="container bCover" style="background-image:url(images/bg_06.jpg);height:3.82rem;overflow:hidden;" id="anchor2">
+    <ul id="classCont" class="clearfix">
+        <li class="act">零食</li>
+        <li>保健</li>
+        <li>酒水</li>
+        <li>饮品</li>
+        <li>干货</li>
+    </ul>
+</section>
+
+<section class="container" id="clickShow_block" >
+    <div style="background-image:url(images/mz/ls.jpg);" class="act clearfix" >
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-120-24B_147"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-P08-1D5_115"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-125-265-04_154"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-P08-25V_115"></a>
+    </div>
+    
+    <div style="background-image:url(images/mz/bj.jpg);" class="clearfix">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-50H-0D6_012"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-J02-0N2_054"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-X1Z-27O_108"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-X0W-29C_108"></a>
+    </div>
+    
+    <div style="background-image:url(images/mz/js.jpg);" class="clearfix">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S0Y-70Y-0HH_093"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S0Y-80G-0HQ_003"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S0Y-70Y-04Q_093"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S0Y-M13-0FW_140"></a>
+    </div>
+    
+    <div style="background-image:url(images/mz/yp.jpg);" class="clearfix">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-O1K-27E_054"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-Z03-5XD_079"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-W0S-6KX_079"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-M0G-111_082"></a>
+    </div>
+    
+    <div style="background-image:url(images/mz/gh.jpg);" class="clearfix">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-I1Z-69T_111"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-L1F-67J_111"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-R17-20M_108"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-41N-5HB-02_111"></a>
+    </div>
+    
+</section>
+
+<!-- 按点击显示  模块  END-->
+
+
+<!-- 商品滑动  模块  START -->
+<section class="container">
+    <div class="swiper-container swiper1">
+        <div class="goods-swiper-wrapper swiper-wrapper">
+            <div class="swiper-slide goods-swiper-slide">
+                <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S0Y-70Y-04R_093">
+                    <img src='https://img01.mall.cmbchina.com/banner/default.jpg' data-src="images/huadong/drink/01.jpg" />
+                </a>
+            </div>
+            <div class="swiper-slide goods-swiper-slide">
+                <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S0Y-M13-0FU_140">
+                    <img src='https://img01.mall.cmbchina.com/banner/default.jpg' data-src="images/huadong/drink/02.jpg" />
+                </a>
+            </div>
+            <div class="swiper-slide goods-swiper-slide">
+                <a href="">
+                    <img src='https://img01.mall.cmbchina.com/banner/default.jpg' data-src="images/huadong/drink/03.jpg" />
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 商品滑动  模块 END -->
+
+<!-- 回到顶部模块START -->
+<section class="container" id='goTop'>
+     <img src='https://img01.mall.cmbchina.com/banner/default.jpg' data-src="images/bg_29.jpg" />
+</section>
+<!-- 回到顶部模块   END -->
+
+
+<script type="text/javascript" src="https://img01.mall.cmbchina.com/banner/common/channel.js" data-description="渠道识别"></script>
+<script type="text/javascript" src="https://img01.mall.cmbchina.com/banner/common/clipboard.min.js" data-description="复制"></script>
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script>
+
+    // 开放修改部分Start
+    var showH_offset = 200;//A类导航超过该高度显示顶部导航
+    var slideGoods_perview = 2.5;//滑动商品部分每屏展示的商品个数
+
+    //开放修改部分结束
+    var goodsSwiper = new Swiper('.swiper1', {
+        wrapperClass : "goods-swiper-wrapper",
+        slideClass   : "goods-swiper-slide",
+        slidesPerView: 2.5
+    });
+    var $head=$('#commonTop');
+
+    // 导航A   START
+    var $navA = $('#navA');
+    $navA.css('top',$head.height());
+
+    $(document).scroll(function(){
+        var showH = showH_offset-$head.height();
+        if($(document).scrollTop()>showH){
+            $navA.fadeIn();
+        }
+        else{
+            $navA.fadeOut();
+            $('#navA div').removeClass('act').eq(0).addClass('act');
+        }
+    });
+    $navA.find('div').click(function(){
+
+        var _ind =$('#navA div').index($(this));
+        $('#navA div').removeClass('act').eq(_ind).addClass('act');
+        var $el = $($(this).attr("data-href"));
+        if ($el.length) {
+            $("html, body").animate({scrollTop: $el.offset().top - $head.height() - $navA.height()});
+        }
+        return false;
+    });
+    // 导航A   END
+
+
+    //限时活动START
+    var dateArr = new Array();
+    $('#dateCont li').each(function(){
+        dateArr.push($(this).attr('data-date'));
+    });
+    // console.log(dateArr);
+    function getDateNum(){
+        var d = new Date();
+        var month = d.getMonth()+1;
+        var date = d.getDate().toString().length==2? d.getDate().toString():'0'+d.getDate().toString();
+        var t = month.toString()+date.toString();//获取到一个NUM型的日期
+        var tStr = t.length<=3?'0'+t:t;
+        return dateArr.indexOf(tStr);//返回 MMDD格式的字符串日期
+    }
+    if(getDateNum()==-1){//当前日期不在活动时间范围内
+        
+    }
+    else{
+        msChange(getDateNum());
+    }
+
+
+    function msChange(ind){
+        $('#dateCont li').removeClass('act').eq(ind).addClass('act');
+        $('#timeShow_block div').removeClass('act').eq(ind).addClass('act');
+    }
+
+    $('#dateCont li').click(function(){
+        var index = $('#dateCont li').index($(this));
+        msChange(index);
+    });
+    //限时活动END
+
+    function mzChange(ind){
+        $('#classCont li').removeClass('act').eq(ind).addClass('act');
+        $('#clickShow_block div').removeClass('act').eq(ind).addClass('act');
+    }
+
+    $('#classCont li').click(function(){
+        var index = $('#classCont li').index($(this));
+        mzChange(index);
+    });
+
+
+//回到顶部START
+    $('#goTop').click(function(){
+         $("html, body").animate({scrollTop: 0});
+    })
+
+
+    // B类导航 START
+    var $navB = $('#navB')||false;
+    var $window = $(window);
+    var tabTop;
+     $window.bind("touchmove scroll", function () {
+         setTop(tabTop);
+     });
+     function setTop(tabTop) {
+        if($navB.height()){
+            tabTop = $navB.parent().offset().top - $head.height();
+        }
+         
+         var top = $window.scrollTop();
+         $navB.css({
+             "position": top > tabTop ? "fixed" : "static",
+             "top":$head.height()
+         });
+     }
+     $navB.find('div').click(function(){
+
+        var _ind =$('#navB div').index($(this));
+        $('#navB div').removeClass('act').eq(_ind).addClass('act');
+        var $el = $($(this).attr("data-href"));
+        if ($el.length) {
+            $("html, body").animate({scrollTop: $el.offset().top - $head.height() - $navA.height()});
+        }
+        return false;
+    });
+//B类导航END
+
+//点击复制
+/* 复制文本 START */
+    var _thisKey;
+    $('.copyBtn').click(function(){
+        _thisKey = $(this).attr('data-key');
+    });
+    var clipboard = new Clipboard('.copyBtn', {
+        text: function() {
+            return _thisKey;
+        }
+    });
+
+    clipboard.on('success', function(e) {
+        alert('复制成功');
+    });
+
+    clipboard.on('error', function(e) {
+        prompt('复制失败，请尝试手动复制下方优惠券码',_thisKey);
+    });
+/* 复制文本 END */ 
+
+</script>
+</body>
+</html>

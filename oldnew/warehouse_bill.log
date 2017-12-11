@@ -1,0 +1,1076 @@
+exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O827954' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O838983' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R850084' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R900442' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1066177' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1066296' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1069026' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1087835' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1100589' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1120338' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1134360' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1141930' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1147724' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1191106' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1197138' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'S135800' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(169): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'S135800' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(169): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O827954' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O838983' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R850084' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R900442' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1066177' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1066296' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1069026' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1087835' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1100589' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1120338' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1134360' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1141930' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1147724' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1191106' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1197138' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1280686' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1282680' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1291176' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1297878' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1306909' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1306910' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1317775' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1317777' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1321852' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1321857' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1393177' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1394272' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1413411' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1413413' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1424539' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1431673' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1444013' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1446874' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1465695' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1496940' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1513939' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1540632' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1606508' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1628237' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1642189' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1642869' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1646706' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1658442' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1730537' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1750278' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1752143' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1758764' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1761742' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1774745' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1779451' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1784741' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1786670' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1786688' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1786690' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1787805' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1787818' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1787830' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1788143' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1788458' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1788468' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1790522' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1790558' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1792063' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1792070' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1792941' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1792944' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1792947' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1792949' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1793841' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1793842' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1794277' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1795073' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1796046' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1796744' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1796746' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1796750' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1797757' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1797789' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1797848' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1797852' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1797862' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1797950' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1797954' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1798006' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1798010' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1798016' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1798191' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1798370' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1798717' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1798718' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1799295' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1799304' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1800043' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1800051' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1800345' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1800351' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1801331' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1802934' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1803226' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1804038' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1808456' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1808617' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1808623' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1808680' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1809733' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1810260' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1810931' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1811890' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1812537' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1819126' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1819140' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1819235' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1841182' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1841183' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1842666' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1843244' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1843268' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1843771' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1843867' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1843878' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1843884' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1843886' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1843932' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1845215' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1845278' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1845323' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1846095' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1846246' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1846299' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1846748' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1846750' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1847481' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1847490' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1847596' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1847598' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1847652' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1847806' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1847808' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1847819' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1848559' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1848674' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1848901' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1849032' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1849035' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1849798' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1849799' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1849801' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1849802' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1849803' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1851505' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1851618' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1851675' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1853568' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1853734' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1854535' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1854545' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1855422' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1855673' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1856055' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1857249' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1857496' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1857671' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1857750' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1857834' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1857836' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1859388' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1859398' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1860917' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1860922' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1860925' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1860970' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1862212' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1864920' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1868537' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1869972' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1869980' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1870051' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1870206' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1871454' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1874452' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1874454' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1877798' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1879907' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1879908' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1880132' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1880822' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1880835' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1881137' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'R1885152' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1885848' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1886058' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1887545' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1887985' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1893248' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1893249' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1900187' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'WF1900272' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'O1902082' for key 'bill_no_2'' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill')
+#2 D:\wamp\www\test\oldnew\orderO.php(167): MysqlDB->insert('warehouse_bill', Array)
+#3 {main}

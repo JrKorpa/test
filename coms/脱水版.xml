@@ -1,0 +1,227 @@
+<!-- 导航A  START -->
+<nav id="navA">
+    <div data-href="#anchor11" class='act'>锚点A</div>
+    <div data-href="#anchor2">锚点B</div>
+    <div data-href="#anchor3">锚点C</div>
+    <div data-href="#anchor4">锚点D</div>
+
+    <div data-href="#anchor11" class='act'>锚点A</div>
+    <div data-href="#anchor2">锚点B</div>
+    <div data-href="#anchor3">锚点C</div>
+    <div data-href="#anchor4">锚点D</div>
+</nav>
+<!-- 导航A END -->
+
+
+<!-- 100%宽度图片无链接模块 -->
+<section class="container" >
+    <img src="images/bg_01.jpg">
+    <img src="images/bg_01.jpg">
+    <img src="images/bg_01.jpg">
+    <img src="images/bg_01.jpg">
+</section>
+
+<!-- 导航B START -->
+<div id="navB-cont" style="height:1.0rem">
+    <nav id="navB" class="bCover clearfix" style="height:1rem;background-image:url(images/navB.jpg);">
+        <div data-href="#anchor1" class='act'></div>
+        <div data-href="#anchor2"></div>
+        <div data-href="#anchor3"></div>
+        <div data-href="#anchor4"></div>
+    </nav>
+</div>
+<!-- 导航B END -->
+
+
+<!-- 点击复制券码模块 START -->
+<section class='container'>
+    <img src="images/bg_111.jpg" class="copyBtn" data-key="这是一个券码，替换这里即可AAA">
+    <img src="images/bg_111.jpg" class="copyBtn" data-key="这是一个券码，替换这里即可BBB">
+</section>
+<!-- 点击复制券码模块 END -->
+
+<!-- 100%宽度图片含链接模块 START-->
+<section class="container" >
+
+    <a href="http://www.baidu.com">
+        <img src="images/bg_02.jpg">
+    </a>
+
+    <a href="http://www.baidu.com">
+        <img src="images/bg_02.jpg">
+    </a>
+
+    <a href="http://www.baidu.com">
+        <img src="images/bg_02.jpg" id="anchor11">
+    </a>
+
+</section>
+
+<!-- 100%宽度图片含链接模块 END-->
+
+
+<!-- 一行并排两个链接 模块 START -->
+<section class="container bCover clearfix col2-link" style="background-image:url(images/bg_03.jpg);height:3rem;" >
+    <a href="http://www.baidu.com"></a>
+    <a href="http://www.baidu.com"></a>
+</section>
+<!-- 一行并排两个链接 模块 END -->
+
+<!-- 一行并排三个链接 模块 START -->
+<section class="container bCover clearfix col3-link" style="background-image:url(images/bg_04.jpg);height:3rem;" id="anchor1">
+    <a href="http://www.baidu.com"></a>
+    <a href="http://www.baidu.com"></a>
+    <a href="http://www.baidu.com"></a>
+</section>
+<!-- 一行并排三个链接 模块 END -->
+
+
+
+<!-- 按日期显示 模块 START -->
+<section class="container bCover" style="background-image:url(images/bg_05.jpg);height:0.79rem;overflow:hidden;">
+    <ul id="dateCont" class="clearfix">
+        <li data-date="0801" class="act">08.01</li>
+        <li data-date="0802">08.02</li>
+        <li data-date="0803">08.03</li>
+        <li data-date="0804">08.04</li>
+        <li data-date="0805">08.05</li>
+        <li data-date="0806">08.06</li>
+        <li data-date="0807">08.07</li>
+    </ul>
+</section>  
+
+<section class="container" id="timeShow_block" >
+    <div style="background-image:url(images/ms/0725.jpg);" class="act" date-datemark="0801">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-P08-0C1_115"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-Y0A-69O_152"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-120-6EP_147"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-A1U-24S_129"></a>
+    </div>
+    
+    <div style="background-image:url(images/ms/0726.jpg);" date-datemark="0802">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-J02-6HF_054"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-Q1M-6HJ_113"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-W0S-6HE_079"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-M13-6H8_140"></a>
+    </div>
+    
+    <div style="background-image:url(images/ms/0727.jpg);" date-datemark="0803">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-P08-0BV_115"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-Z1P-6HP_149"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-T1R-6HG_054"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-70Y-6H9_093"></a>
+    </div>
+    
+    <div style="background-image:url(images/ms/0728.jpg);" date-datemark="0804">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-P08-4YH_115"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-019-6HM_111"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-120-6EO_147"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-A1U-13R_129"></a>
+    </div>
+    
+    <div style="background-image:url(images/ms/0729.jpg);" date-datemark="0805">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-T12-6HI_079"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-V1Y-6HO_111"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-70Y-4RS_093"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-R01-6HH_079"></a>
+    </div>
+    
+    <div style="background-image:url(images/ms/0730.jpg);" date-datemark="0806">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-P08-0BZ_115"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-G14-3AX_122"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-M0G-67R_082"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-Q13-6HL_111"></a>
+    </div>
+    
+    <div style="background-image:url(images/ms/0731.jpg);" date-datemark="0807">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-11M-6HN_111"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-120-6EK_147"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-70Y-6HA_093"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-Z13-27C_129"></a>
+    </div>
+    
+</section>
+
+<!-- 按日期显示 模块 END -->
+
+<!-- 按点击显示  模块  START-->
+<section class="container bCover" style="background-image:url(images/bg_06.jpg);height:3.82rem;overflow:hidden;" id="anchor2">
+    <ul id="classCont" class="clearfix">
+        <li class="act">零食</li>
+        <li>保健</li>
+        <li>酒水</li>
+        <li>饮品</li>
+        <li>干货</li>
+    </ul>
+</section>
+
+<section class="container" id="clickShow_block" >
+    <div style="background-image:url(images/mz/ls.jpg);" class="act clearfix" >
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-120-24B_147"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-P08-1D5_115"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-125-265-04_154"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-P08-25V_115"></a>
+    </div>
+    
+    <div style="background-image:url(images/mz/bj.jpg);" class="clearfix">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-50H-0D6_012"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-J02-0N2_054"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-X1Z-27O_108"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-X0W-29C_108"></a>
+    </div>
+    
+    <div style="background-image:url(images/mz/js.jpg);" class="clearfix">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S0Y-70Y-0HH_093"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S0Y-80G-0HQ_003"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S0Y-70Y-04Q_093"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S0Y-M13-0FW_140"></a>
+    </div>
+    
+    <div style="background-image:url(images/mz/yp.jpg);" class="clearfix">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-O1K-27E_054"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-Z03-5XD_079"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-W0S-6KX_079"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-M0G-111_082"></a>
+    </div>
+    
+    <div style="background-image:url(images/mz/gh.jpg);" class="clearfix">
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-I1Z-69T_111"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-L1F-67J_111"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S1T-R17-20M_108"></a>
+        <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S34-41N-5HB-02_111"></a>
+    </div>
+    
+</section>
+
+<!-- 按点击显示  模块  END-->
+
+
+<!-- 商品滑动  模块  START -->
+<section class="container">
+    <div class="swiper-container swiper1">
+        <div class="goods-swiper-wrapper swiper-wrapper">
+            <div class="swiper-slide goods-swiper-slide">
+                <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S0Y-70Y-04R_093">
+                    <img src='https://img01.mall.cmbchina.com/banner/default.jpg' data-src="images/huadong/drink/01.jpg" />
+                </a>
+            </div>
+            <div class="swiper-slide goods-swiper-slide">
+                <a href="https://ssl.mall.cmbchina.com/_cl5_/Product/Detail?productCode=S0Y-M13-0FU_140">
+                    <img src='https://img01.mall.cmbchina.com/banner/default.jpg' data-src="images/huadong/drink/02.jpg" />
+                </a>
+            </div>
+            <div class="swiper-slide goods-swiper-slide">
+                <a href="">
+                    <img src='https://img01.mall.cmbchina.com/banner/default.jpg' data-src="images/huadong/drink/03.jpg" />
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 商品滑动  模块 END -->
+
+<!-- 回到顶部模块START -->
+<section class="container" id='goTop'>
+     <img src='https://img01.mall.cmbchina.com/banner/default.jpg' data-src="images/bg_29.jpg" />
+</section>
+<!-- 回到顶部模块   END -->

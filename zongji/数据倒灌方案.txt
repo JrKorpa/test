@@ -1,0 +1,86 @@
+192.168.0.207	  mtest.kela.cn   
+数据库 10.23
+
+1.确定款
+
+W9971 W7443 W5731 KLRX010562 KLRW029026  B9446 KLRM028916  A1023 KLRX014759
+
+
+2.
+app_xiangkou			34536
+list_style_goods_dg		119995
+rel_cat_attribute		1651
+base_salepolicy_goods_dg	262763
+
+
+3.
+文件上传
+将文件内所有款的属性都列入
+
+D:\wamp\bin\php\php5.5.12\php.exe D:\a\1.insert_weight.php
+执行成功
+
+4.清洗镶口中上下信息
+http://u/kela/xiangk.php?s=W7443
+http://u/kela/xiangk2.php?s=W7443
+
+
+
+
+
+
+update list_style_goods set xiangkou = '0.20' where xiangkou = '0.2';
+update list_style_goods set xiangkou = '0.30' where xiangkou = '0.3';
+update list_style_goods set xiangkou = '0.40' where xiangkou = '0.4';
+update list_style_goods set xiangkou = '0.50' where xiangkou = '0.5';
+update list_style_goods set xiangkou = '0.60' where xiangkou = '0.6';
+update list_style_goods set xiangkou = '0.70' where xiangkou = '0.7';
+update list_style_goods set xiangkou = '0.80' where xiangkou = '0.8';
+update list_style_goods set xiangkou = '0.90' where xiangkou = '0.9';
+update list_style_goods set xiangkou = '1.00' where xiangkou = '1.0';
+update list_style_goods set xiangkou = '1.10' where xiangkou = '1.1';
+update list_style_goods set xiangkou = '1.20' where xiangkou = '1.2';
+
+
+SELECT `a`.`goods_id`,`a`.`chengbenjia`,`b`.`dingzhichengben` FROM `base_salepolicy_goods` as `a`,`list_style_goods` as `b` where a.`goods_id` = `b`.`goods_sn` and `a`.`chengbenjia` <> `b`.`dingzhichengben`;
+
+update
+	`base_salepolicy_goods` as `a`
+	inner join `list_style_goods` as `b` on a.`goods_id` = `b`.`goods_sn`
+set 
+	`a`.`chengbenjia`  = `b`.`dingzhichengben` 
+where 
+	`a`.`chengbenjia` <> `b`.`dingzhichengben`
+	
+
+UPDATE `list_style_goods` SET fushi_chengbenjia_other=0 WHERE fushi_chengbenjia_other='' OR fushi_chengbenjia_other IS NULL;
+
+
+
+--------------------------------------------------------------------------
+SELECT 
+	`a`.`goods_id`,`a`.`chengbenjia`,`b`.`chengben` 
+
+FROM 
+	`base_salepolicy_goods` as `a`
+	inner join `app_salepolicy_goods` as `b` on a.`goods_id` = `b`.`goods_id`
+
+where  
+	`a`.`chengbenjia` <> `b`.`chengben`
+	AND `b`.`isXianhuo`=0
+
+
+
+update
+	inner join `app_salepolicy_goods` as `b`
+set 
+	`b`.`sale_price` = ceil(`b`.`chengben` * `b`.`jiajia` + `b`.`sta_value`)
+
+
+
+
+
+
+
+
+

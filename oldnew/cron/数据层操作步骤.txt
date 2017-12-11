@@ -1,0 +1,557 @@
+备份表
+warehouse_shipping.warehouse_goods
+warehouse_shipping.warehouse_bill_goods
+warehouse_shipping.warehouse_bill
+app_order.base_order_info
+app_order.app_order_details
+app_order.app_order_account
+app_order.app_order_address
+app_order.app_order_details
+app_order.app_order_invoice
+app_order.app_order_action
+
+
+表结构修改
+需要给ecs_order_info ecs_order_goods 添加2个时间 update_time
+这样，以后有数据变化， 就可以找到了。
+
+1.添加
+ALTER TABLE `ecs_order_info` ADD `update_time` DATETIME on update CURRENT_TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '最后更新时间'
+ALTER TABLE `ecs_order_goods` ADD `g_update_time` DATETIME on update CURRENT_TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '最后更新时间'
+2.修改
+ALTER TABLE `app_order_account` CHANGE `id` `id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '自增ID', CHANGE `order_amount` `order_amount` DECIMAL(16,2) UNSIGNED NULL DEFAULT '0.00' COMMENT '订单总金额', CHANGE `money_paid` `money_paid` DECIMAL(16,2) UNSIGNED NULL DEFAULT '0.00' COMMENT '已付', CHANGE `money_unpaid` `money_unpaid` DECIMAL(16,2) UNSIGNED NULL DEFAULT '0.00' COMMENT '未付', CHANGE `goods_return_price` `goods_return_price` DECIMAL(16,2) NOT NULL DEFAULT '0.00' COMMENT '商品实际退款', CHANGE `real_return_price` `real_return_price` DECIMAL(16,2) NOT NULL DEFAULT '0.00' COMMENT '实退金额', CHANGE `shipping_fee` `shipping_fee` DECIMAL(16,2) NOT NULL DEFAULT '0.00' COMMENT '快递费', CHANGE `goods_amount` `goods_amount` DECIMAL(16,2) NOT NULL DEFAULT '0.00' COMMENT '商品总额', CHANGE `coupon_price` `coupon_price` DECIMAL(16,2) NOT NULL DEFAULT '0.00' COMMENT '订单优惠券金额', CHANGE `favorable_price` `favorable_price` DECIMAL(16,2) NOT NULL DEFAULT '0.00' COMMENT '订单商品优惠金额', CHANGE `pack_fee` `pack_fee` DECIMAL(16,2) NOT NULL DEFAULT '0.00', CHANGE `pay_fee` `pay_fee` DECIMAL(16,2) NOT NULL DEFAULT '0.00', CHANGE `insure_fee` `insure_fee` DECIMAL(16,2) NOT NULL DEFAULT '0.00';
+ALTER TABLE `warehouse_bill_goods` CHANGE `chengbenjia` `chengbenjia` DECIMAL(10,2) NOT NULL DEFAULT '0.00' COMMENT '成本价', CHANGE `mingyijia` `mingyijia` DECIMAL(10,2) NOT NULL DEFAULT '0.00' COMMENT '名义价', CHANGE `xiaoshoujia` `xiaoshoujia` DECIMAL(10,2) NOT NULL DEFAULT '0.00' COMMENT '销售价（损益单中的退货价） （在退货单中，该字段作为退货价）';
+ALTER TABLE `warehouse_bill_goods` CHANGE `jingdu` `jingdu` VARCHAR(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '净度'
+
+
+添加新库
+新系统添加
+CREATE DATABASE `old_sys` DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
+
+添加新表
+将老系统中 
+kela_order_part.ecs_order_info
+kela_order_part.ecs_order_goods
+kela_order_part.ecs_department_channel
+kela_order_part.ecs_return_goods
+kela_order_part.ecs_region
+
+jxc.jxc_order
+jxc.jxc_order_goods
+jxc.jxc_goods
+
+[使用]
+cuteframe.company 
+cuteframe.payment
+cuteframe.customer_sources
+cuteframe.sales_channels
+cuteframe.region
+
+[查看目前的维修单]
+CREATE TABLE IF NOT EXISTS `weixiu_order` (
+  `id` int(10) unsigned AUTO_INCREMENT NOT NULL,
+  `order_sn` varchar(20) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+[weixiu]
+insert into weixiu_order(order_sn)
+SELECT kela_order_sn FROM jxc.`jxc_order` WHERE type in ('X','R') AND kela_order_sn!='' AND status=1
+
+[base_order_info]
+    insert into base_order_info(
+        id,order_sn,old_order_id,bespoke_id,old_bespoke_id,
+        order,status,
+        shipping_status,
+        pay_status,
+        delivery_status,
+        buchan_status,
+        order_pay_status,
+        customer_source_id,department_id,create_time,create_user,check_time,check_user,
+        genzong,recommended,modify_time,order_remark,referer,
+        is_delete,apply_close,is_xianhuo,is_print_tihuo,effecct_date,is_zp,pay_date,apply_return,weixiu_status,
+        user_id,consignee,mobile
+    )
+    select 
+        order_id,order_sn,order_id,bespoke_id,bespoke_id,
+        (case `order_status` when 0 then 1 when 1 then 2 when 5 then 4 when 3 then 3 else 99 end),
+        (case `shipping_status` when 0 then 1 when 1 then 2 when 2 then 3 when 3 then 4 when 4 then 5 else 99 end),
+        (case `pay_status` when 0 then 1 when 1 then 1 when 2 then 3 when 4 then 2 when 5 then 4 else 99 end),
+        (case `peihuo_status` when 0 then 1 when 1 then 3 when 2 then 4 when 4 then 5 else 99 end),
+        (case `buchan_status` when 0 then 1 when 1 then 2 when 2 then 3 when 3 then 4 when 8 then 1 else 99 end),
+        0,
+        0,0,order_time,make_order,date_format(confirm_time,'%Y-%m-%d %H:%i:%s'),'',
+        genzong,recommended,now(),postscript,'异常',
+        0,apply_close,IF(buchan_status=0,1,0),IF(print_thd>0,1,0),effect_date,is_zp,first_pay_time,0,0,
+        0,consignee,''
+    from kela_order_part.ecs_order_info
+    where 
+	order_status in (1,2) AND order_sn not in (select order_sn from old_sys.weixiu_order)
+
+
+[app_order_details]
+	insert into app_order_details
+	(
+	    order_id,goods_id,goods_sn,ext_goods_sn,goods_name,
+	    goods_price,favorable_price,goods_count,favorable_status,allow_favorable,
+	    create_time,modify_time,create_user,
+	    details_status,send_good_status,buchan_status,is_stock_goods,is_return,details_remark,
+	    cart,cut,clarity,color,zhengshuhao,
+	    caizhi,jinse,jinzhong,zhiquan,kezi,face_work,xiangqian,xiangkou,
+	    is_zp,qiban_type,goods_type,cat_type,product_type,kuan_sn,
+	    bc_id,chengbenjia,policy_id,is_finance,is_peishi,weixiu_status
+	)
+	select 
+	    order_id,goods_id,goods_sn,ext_goods_sn,goods_name,
+	    market_price,market_price-goods_price,goods_number,3,1,
+	    '0000-00-00 00:00:00','0000-00-00 00:00:00','',
+	    goods_status,goods_status,goods_status,2,is_return,'',
+	    stone,cut,stone_clear,stone_color,certid,
+	    UPPER(gold),gold_color,gold_weight,finger,word,face_work,chengpin,jietuoxiangkou,
+	    IF(goods_type='zp'||goods_type='zengpin',1,0),IF(goods_type='dz'||goods_type='dingzhi',IF(goods_sn='QIBAN'||goods_sn='DINGZHI',0,1),2),IF(goods_type='zp'||goods_type='zengpin','zp',IF(goods_type='lz'||goods_type='luozuan','lz',IF(goods_sn='QIBAN'||goods_sn='DINGZHI','qiban','style_goods'))),0,0,'',
+	    rec_id,0,0,0,0,0
+	from kela_report_fin.ecs_order_goods
+	where 1
+	AND order_id < 1935211
+	AND order_id in (select id from app_order.base_order_info where id < 1935211 );
+
+	update 
+	    app_order_details od
+	    inner join base_order_info oi on oi.id=od.order_id
+	set 
+	    od.create_time=oi.create_time,
+	    od.modify_time=oi.create_time,
+	    od.create_user=oi.create_user,
+	    od.is_stock_goods=IF(oi.is_xianhuo,1,0)
+	where
+	    oi.id < 1935211 ;
+
+
+[发票表 app_order_invoice]
+insert into app_order.app_order_invoice(
+        order_id,is_invoice,invoice_title,
+        invoice_content,invoice_status,
+        invoice_amount,
+        invoice_address,
+        invoice_num, 
+        create_user,create_time,
+        use_user,use_time
+    )
+    select 
+        order_id,need_inv,inv_payee,
+        inv_content,1,
+        IF(inv_payee,IF(inv_amount ='0.00',IF(pay_status=5,money_paid+order_amount,money_paid),0),inv_amount) amount,
+        inv_post_address,
+        second_ship,
+        make_order,order_time,
+        '','0000-00-00 00:00:00'
+    from kela_report_fin.ecs_order_info 
+    where 1
+	AND order_id < 1935211
+	AND order_id in (select id from app_order.base_order_info where id < 1935211 );
+
+[金额表 app_order_account]
+    insert into app_order_account
+    (
+        order_id,order_amount,money_paid,money_unpaid,
+        goods_return_price,real_return_price,shipping_fee,goods_amount,coupon_price,favorable_price,
+        card_fee,pack_fee,pay_fee,insure_fee
+    )
+    select 
+        order_id,money_paid+order_amount-real_return_price,money_paid,order_amount,
+        goods_return_price,real_return_price,shipping_fee,0,0,0,
+        card_fee,pack_fee,pay_fee,insure_fee
+    from 
+        kela_report_fin.ecs_order_info
+	where 1
+	AND order_id < 1935211
+	AND order_id in (select id from app_order.base_order_info where id < 1935211 );
+
+
+	update
+	    app_order_account ao
+	    inner join (
+		    select 
+			SUM(od.goods_price) ga,SUM(od.favorable_price) fp,od.order_id
+		    from 
+			app_order_account ao
+			inner join app_order_details od on ao.order_id=od.order_id
+		    where
+			od.order_id < 1935211
+		    group by 
+			od.order_id
+	    ) t on ao.order_id = t.order_id
+	set 
+	    ao.goods_amount = t.ga,
+	    ao.favorable_price = t.fp
+	where 
+	    ao.order_id < 1935211;
+
+[地址表 app_order_address]
+	    insert into app_order_address
+	    (
+		order_id,consignee,shop_type,shop_name,distribution_type,
+		express_id,freight_no,
+		country_id,province_id,city_id,regional_id,
+		address,tel,email,zipcode,goods_id
+	    )
+	    select 
+		order_id,'',IF(distribution_type = 1,1,IF( distribution_type = 3,2,0)),'',IF(distribution_type=1||distribution_type=3,1,IF(distribution_type=2,2,9)),
+		shipping_id,invoice_no,
+		0,0,0,0,
+		address,'',email,zipcode,0
+	    from kela_report_fin.ecs_order_info
+	    where 1
+	    AND order_id < 1935211 
+	    AND order_id in (select id from app_order.base_order_info where id < 1935211 );
+
+
+    update 
+        app_order_address ad
+        inner join base_order_info oi on ad.order_id = oi.id
+    set
+	ad.consignee = oi.consignee,
+	ad.tel = left(oi.mobile,30)
+    where 
+        oi.id < 1935211
+
+    update 
+        app_order_address ad
+        inner join base_order_info oi on ad.order_id = oi.id
+	inner join cuteframe.sales_channels sc on sc.id = oi.department_id
+    set
+        ad.shop_name = sc.channel_name
+    where 
+        oi.id < 1935211 AND ad.shop_name = '' AND ad.distribution_type = 1
+
+[操作日志 app_order_action ]
+	insert into app_order_action(order_id,order_status,shipping_status,pay_status,create_user,create_time,remark)
+            select 
+                order_id,
+                (case `order_status` when 0 then 1 when 1 then 2 when 5 then 4 when 3 then 3 else 99 end),
+                (case `shipping_status` when 0 then 1 when 1 then 2 when 2 then 3 when 3 then 4 when 4 then 5 else 99 end),
+                (case `pay_status` when 0 then 1 when 1 then 1 when 2 then 3 when 4 then 2 when 5 then 4 else 99 end),
+                action_user,
+                action_time,
+                action_note
+            from kela_report_fin.ecs_order_action 
+	where 1
+	    AND order_id < 1935211 
+	    AND order_id in (select id from app_order.base_order_info where id < 1935211 );
+
+[销售单]
+	insert into warehouse_bill_old(
+            bill_no,bill_type,bill_status,order_sn,goods_num,
+            put_in_type,jiejia,tuihuoyuanyin,send_goods_sn,
+            pro_id,pro_name,goods_total,goods_total_jiajia,shijia,
+            to_warehouse_id,to_warehouse_name,to_company_id,to_company_name,from_company_id,from_company_name,
+            bill_note,yuanshichengben,check_user,check_time,create_user,create_time,
+            fin_check_status,fin_check_time,to_customer_id,pifajia,consignee,company_id_from,company_from,from_bill_id
+        )
+        select 
+            CONCAT(type,order_id),'S',2,kela_order_sn,goods_num,
+            in_warehouse_type,jiejia,tuihuoyuanyin,send_goods_sn,
+            prc_id,prc_name,goods_total,0,shijia,
+            to_warehouse_id,to_warehouse,to_company_id,to_company,from_company_id,from_company,
+            info,chengben,check_order,checktime,make_order,addtime,
+            0,fin_check_time,shipping_id,pf_shijia,'',0,0,0
+        from
+            jxc.jxc_order
+        where 
+            type='S' AND status=2;
+
+[销售单商品]
+	insert into warehouse_bill_goods_old(
+	    bill_id,bill_no,bill_type,
+	    goods_id,goods_sn,goods_name,num,warehouse_id,
+	    caizhi,jinzhong,jingdu,jinhao,yanse,zhengshuhao,zuanshidaxiao,in_warehouse_type,account,yuanshichengben,
+	    chengbenjia,mingyijia,xiaoshoujia,addtime,
+	    pandian_status,guiwei,detail_id,pandian_guiwei,pandian_user,
+	    pifajia,sale_price,shijia,bill_y_id,jiajialv
+	)
+	select 
+	    0,CONCAT(o.type,o.order_id),'S',
+	    og.goods_id,og.goods_sn,left(og.goods_name,150),og.num,0,
+	    '',0,'',0,'','',0,0,0,0,
+	    og.caigou_chengben,og.sale_price,og.shijia,og.addtime,
+	    0,og.num,0,'','',
+	    og.pf_shijia,og.sale_price,og.shijia,'',0
+	from
+	    jxc.jxc_order o
+	    inner join jxc.jxc_order_goods og on o.order_id = og.order_id
+	where 
+	    o.type='S' AND o.status=2;
+
+
+	update 
+		warehouse_bill_old wb
+		inner join warehouse_bill_goods_old wbg on wb.bill_no = wbg.bill_no
+	set 
+		wbg.bill_id = wb.id
+	where
+		wbg.bill_id != wb.id
+		AND length(wb.bill_no)<12;
+
+	update 
+		warehouse_goods_old wb
+		inner join warehouse_bill_goods_old wbg on wb.goods_id = wbg.goods_id	
+	set 
+		wbg.caizhi=wb.caizhi,
+		wbg.jinzhong=wb.jinzhong,
+		wbg.jingdu=wb.jingdu,
+		wbg.jinhao=0,
+		wbg.yanse=wb.yanse,
+		wbg.zhengshuhao=wb.zhengshuhao,
+		wbg.zuanshidaxiao=wb.zuanshidaxiao,
+		wbg.in_warehouse_type=wb.put_in_type,
+		wbg.account=wb.account,
+		wbg.yuanshichengben=wb.yuanshichengbenjia;
+
+
+[商品]
+	insert ignore into warehouse_shipping.warehouse_goods_old (
+		goods_id,goods_sn,buchan_sn,order_goods_id,product_type,cat_type,is_on_sale,
+		prc_id,prc_name,mo_sn,
+		put_in_type,
+		goods_name,company,warehouse,company_id,warehouse_id,
+		caizhi,jinzhong,jinhao,zhushi,zhuchengsezhongjijia,
+		zhuchengsemairudanjia,zhuchengsemairuchengben,zhuchengsejijiadanjia,
+		zhushilishu,zuanshidaxiao,zhushizhongjijia,zhushiyanse,
+		zhushijingdu,zhushimairudanjia,zhushimairuchengben,
+		zhushijijiadanjia,zhushiqiegong,zhushixingzhuang,zhushibaohao,zhushiguige,
+		fushi,fushilishu,fushizhong,fushizhongjijia,fushiyanse,fushijingdu,
+		fushimairuchengben,
+		fushimairudanjia,
+		fushijijiadanjia,
+		fushixingzhuang,fushibaohao,fushiguige,zongzhong,
+		mairugongfeidanjia,mairugongfei,jijiagongfei,shoucun,ziyin,
+		danjianchengben,
+		peijianchengben,
+		qitachengben,
+		yuanshichengbenjia,
+		chengbenjia,jijiachengben,jiajialv,
+		kela_order_sn,zuixinlingshoujia,pinpai,changdu,zhengshuhao,zhengshuhao2,
+		yanse,jingdu,peijianshuliang,guojizhengshu,zhengshuleibie,gemx_zhengshu,num,addtime,shi2,
+		shi2lishu,shi2zhong,shi2zhongjijia,shi2mairudanjia,
+		shi2mairuchengben,
+		shi2jijiadanjia,qiegong,paoguang,duichen,yingguang,
+		mingyichengben,
+		xianzaixiaoshou,
+		zuanshizhekou,guojibaojia,gongchangchengben,account,
+		account_time,tuo_type,att1,att2,
+		huopin_type,dia_sn,zhushipipeichengben,
+		biaoqianjia,jietuoxiangkou,caigou_chengbenjia,
+		box_sn,pass_sale,old_set_w,weixiu_status,jiejia,oldsys_id
+	)
+	select 
+		goods_id,goods_sn,'',order_goods_id,shipin_type,kuanshi_type,3,
+		IF(prc_id,prc_id,0),prc_name,mo_sn,
+		case storage_mode when 0 then 1 when 1 then 2 when 2 then 3 when 3 then 4 else 0 end,
+		goods_name,'','',company,warehouse,
+		zhuchengse,IF(zhuchengsezhong,zhuchengsezhong,'0.00'),jinhao,zhushi,IF(zhuchengsezhongjijia,zhuchengsezhongjijia,'0.00'),
+		IF(zhuchengsemairudanjia,zhuchengsemairudanjia,'0.00'),IF(zhuchengsemairuchengben,zhuchengsemairuchengben,'0.00'),IF(zhuchengsejijiadanjia,zhuchengsejijiadanjia,'0.00'),
+		zhushilishu,IF(zhushizhong,zhushizhong,'0.00'),zhushizhongjijia,zhushiyanse,
+		zhushijingdu,IF(zhushimairudanjia,zhushimairudanjia,'0.00'),IF(zhushimairuchengben,zhushimairuchengben,'0.00'),
+		IF(zhushijijiadanjia,zhushijijiadanjia,'0.00'),zhushiqiegong,zhushixingzhuang,zhushibaohao,zhushiguige,
+		fushi,fushilishu,IF(fushizhong,fushizhong,'0.00'),fushizhongjijia,fushiyanse,fushijingdu,
+		IF(fushimairuchengben,fushimairuchengben,'0.00'),
+		IF(fushimairudanjia,fushimairudanjia,'0.00'),
+		IF(fushijijiadanjia,fushijijiadanjia,'0.00'),
+		fushixingzhuang,fushibaohao,fushiguige,zongzhong,
+		IF(mairugongfeidanjia,mairugongfeidanjia,'0.00'),IF(mairugongfei,mairugongfei,'0.00'),IF(jijiagongfei,jijiagongfei,'0.00'),IF(shoucun,shoucun,0),ziyin,
+		IF(danjianchengben,danjianchengben,'0.00'),
+		IF(peijianchengben,peijianchengben,'0.00'),
+		IF(qitachengben,qitachengben,'0.00'),
+		IF(yuanshichengbenjia,yuanshichengbenjia,'0.00'),
+		IF(chengbenjia,chengbenjia,'0.00'),jijiachengben,IF(jiajialv,jiajialv,'0.00'),
+		kela_order_sn,IF(zuixinlingshoujia,zuixinlingshoujia,'0.00'),pinpai,changdu,zhengshuhao,zhengshuhao2,
+		yanse,jingdu,peijianshuliang,guojizhengshu,zhengshuleibie,gemx_zhengshu,num,addtime,shi2,
+		shi2lishu,IF(shi2zhong,shi2zhong,'0.00'),shi2zhongjijia,IF(shi2mairudanjia,shi2mairudanjia,'0.00'),
+		IF(shi2mairuchengben,shi2mairuchengben,'0.00'),
+		shi2jijiadanjia,qiegong,paoguang,duichen,yingguang,
+		IF(xianzaichengben,xianzaichengben,'0.00'),
+		IF(xianzaixiaoshou,xianzaixiaoshou,'0.00'),
+		zuanshizhekou,guojibaojia,gongchangchengben,IF(account,account,0),
+		account_time,IF(tuo_type,tuo_type,0),att1,att2,
+		huopin_type,dia_sn,IF(zhushipipeichengben,zhushipipeichengben,'0.00'),
+		IF(biaoqianjia,biaoqianjia,'0.00'),IF(jietuoxiangkou,jietuoxiangkou,'0.000'),IF(caigou_chengbenjia,caigou_chengbenjia,'0.00'),
+		IF(tmp_sn,tmp_sn,'0-00-0-0'),1,1,IF(weixiu_status,weixiu_status,0),IF(account,account,0),IF(id,id,0)
+	from
+		jxc.jxc_goods
+	where
+		goods_id in (
+			select goods_id from warehouse_bill_goods_old	
+		);
+
+[更新绑定错误信息]
+	update 
+		warehouse_shipping.warehouse_goods3 
+	set 
+		order_goods_id = replace(order_goods_id,' ','')
+	where
+		order_goods_id like '% %';
+
+	update 
+		warehouse_shipping.warehouse_goods3 
+	set 
+		order_goods_id = replace(order_goods_id,'\t','')
+	where
+		order_goods_id like '%\t%';
+	
+
+	update 
+		app_order.app_order_details od
+		inner join warehouse_shipping.warehouse_goods_old g on od.bc_id = g.order_goods_id
+	set 
+		g.order_goods_id = od.id
+	where
+		od.order_id < 1935211
+		AND od.bc_id>0
+		AND g.order_goods_id!=''
+		AND g.order_goods_id!='0';
+
+	update 
+		warehouse_shipping.warehouse_goods  
+	set 
+		order_goods_id=''
+	where	
+		order_goods_id='0';
+
+	update 
+		warehouse_shipping.warehouse_goods  
+	set 
+		order_goods_id=''
+	where	
+		order_goods_id!=''
+		AND order_goods_id='0'
+		AND order_goods_id NOT REGEXP '^[0-9]+$';
+
+
+	INSERT ignore INTO `warehouse_shipping`.`warehouse_goods` (`id`, `goods_id`, `goods_sn`, `buchan_sn`, `order_goods_id`, `product_type`, `product_type1`, `cat_type`, `cat_type1`, `is_on_sale`, `prc_id`, `prc_name`, `mo_sn`, `put_in_type`, `goods_name`, `company`, `warehouse`, `company_id`, `warehouse_id`, `caizhi`, `jinzhong`, `jinhao`, `zhushi`, `zhuchengsezhongjijia`, `zhuchengsemairudanjia`, `zhuchengsemairuchengben`, `zhuchengsejijiadanjia`, `zhushilishu`, `zuanshidaxiao`, `zhushizhongjijia`, `zhushiyanse`, `zhushijingdu`, `zhushimairudanjia`, `zhushimairuchengben`, `zhushijijiadanjia`, `zhushiqiegong`, `zhushixingzhuang`, `zhushibaohao`, `zhushiguige`, `fushi`, `fushilishu`, `fushizhong`, `fushizhongjijia`, `fushiyanse`, `fushijingdu`, `fushimairuchengben`, `fushimairudanjia`, `fushijijiadanjia`, `fushixingzhuang`, `fushibaohao`, `fushiguige`, `zongzhong`, `mairugongfeidanjia`, `mairugongfei`, `jijiagongfei`, `shoucun`, `ziyin`, `danjianchengben`, `peijianchengben`, `qitachengben`, `yuanshichengbenjia`, `chengbenjia`, `jijiachengben`, `jiajialv`, `kela_order_sn`, `zuixinlingshoujia`, `pinpai`, `luozuanzhengshu`, `changdu`, `zhengshuhao`, `zhengshuhao2`, `yanse`, `jingdu`, `peijianshuliang`, `guojizhengshu`, `zhengshuleibie`, `gemx_zhengshu`, `num`, `addtime`, `shi2`, `shi2lishu`, `shi2zhong`, `shi2zhongjijia`, `shi2mairudanjia`, `shi2mairuchengben`, `shi2jijiadanjia`, `qiegong`, `paoguang`, `duichen`, `yingguang`, `mingyichengben`, `xianzaixiaoshou`, `zuanshizhekou`, `guojibaojia`, `gongchangchengben`, `account`, `account_time`, `tuo_type`, `att1`, `att2`, `huopin_type`, `dia_sn`, `zhushipipeichengben`, `biaoqianjia`, `jietuoxiangkou`, `caigou_chengbenjia`, `box_sn`, `oldsys_id`, `pass_sale`, `old_set_w`, `weixiu_status`, `jiejia`, `change_time`, `weixiu_company_id`, `weixiu_company_name`, `weixiu_warehouse_id`, `weixiu_warehouse_name`, `zhushitiaoma`, `chuku_time`, `supplier_code`, `color_grade`) 
+	SELECT
+	`id`, `goods_id`, `goods_sn`, `buchan_sn`, `order_goods_id`, `product_type`, `product_type1`, `cat_type`, `cat_type1`, `is_on_sale`, `prc_id`, `prc_name`, `mo_sn`, `put_in_type`, `goods_name`, `company`, `warehouse`, `company_id`, `warehouse_id`, `caizhi`, `jinzhong`, `jinhao`, `zhushi`, `zhuchengsezhongjijia`, `zhuchengsemairudanjia`, `zhuchengsemairuchengben`, `zhuchengsejijiadanjia`, `zhushilishu`, `zuanshidaxiao`, `zhushizhongjijia`, `zhushiyanse`, `zhushijingdu`, `zhushimairudanjia`, `zhushimairuchengben`, `zhushijijiadanjia`, `zhushiqiegong`, `zhushixingzhuang`, `zhushibaohao`, `zhushiguige`, `fushi`, `fushilishu`, `fushizhong`, `fushizhongjijia`, `fushiyanse`, `fushijingdu`, `fushimairuchengben`, `fushimairudanjia`, `fushijijiadanjia`, `fushixingzhuang`, `fushibaohao`, `fushiguige`, `zongzhong`, `mairugongfeidanjia`, `mairugongfei`, `jijiagongfei`, `shoucun`, `ziyin`, `danjianchengben`, `peijianchengben`, `qitachengben`, `yuanshichengbenjia`, `chengbenjia`, `jijiachengben`, `jiajialv`, `kela_order_sn`, `zuixinlingshoujia`, `pinpai`, `luozuanzhengshu`, `changdu`, `zhengshuhao`, `zhengshuhao2`, `yanse`, `jingdu`, `peijianshuliang`, `guojizhengshu`, `zhengshuleibie`, `gemx_zhengshu`, `num`, `addtime`, `shi2`, `shi2lishu`, `shi2zhong`, `shi2zhongjijia`, `shi2mairudanjia`, `shi2mairuchengben`, `shi2jijiadanjia`, `qiegong`, `paoguang`, `duichen`, `yingguang`, `mingyichengben`, `xianzaixiaoshou`, `zuanshizhekou`, `guojibaojia`, `gongchangchengben`, `account`, `account_time`, `tuo_type`, `att1`, `att2`, `huopin_type`, `dia_sn`, `zhushipipeichengben`, `biaoqianjia`, `jietuoxiangkou`, `caigou_chengbenjia`, `box_sn`, `oldsys_id`, `pass_sale`, `old_set_w`, `weixiu_status`, `jiejia`, `change_time`, `weixiu_company_id`, `weixiu_company_name`, `weixiu_warehouse_id`, `weixiu_warehouse_name`, `zhushitiaoma`, `chuku_time`, `supplier_code`, `color_grade`
+	FROM 
+	`warehouse_shipping`.`warehouse_goods_old`
+
+[异常处理]
+
+##customer_source_id
+    update 
+        app_order.base_order_info oi
+        inner join kela_order_part.ecs_order_info old on oi.id = old.order_id
+        inner join cuteframe.customer_sources cs on old.from_ad = cs.source_code
+    set
+        oi.customer_source_id = cs.id
+    where 
+        oi.id < 1935211
+
+
+    select 
+        oi.customer_source_id,cs.id,old.order_id,old.from_ad
+    from
+        app_order.base_order_info oi
+        inner join kela_order_part.ecs_order_info old on oi.id = old.order_id
+        inner join cuteframe.customer_sources cs on old.from_ad = cs.source_code
+    where 
+        oi.id < 1935211
+
+##department_id
+
+	select 
+	    edc.dep_name,sc.channel_name,oi.department_id,sc.id,old.order_id,old.order_sn
+	from 
+	    kela_order_part.ecs_department_channel edc
+	    inner join cuteframe.sales_channels sc on sc.channel_name = edc.dep_name
+	    inner join app_order.base_order_info oi on oi.department_id = sc.id
+	    inner join kela_order_part.ecs_order_info old on oi.id = old.order_id
+	where
+	    oi.id < 1935211
+
+	update
+	    kela_order_part.ecs_department_channel edc
+	    inner join cuteframe.sales_channels sc on sc.channel_name = edc.dep_name
+	    inner join app_order.base_order_info oi on oi.department_id = sc.id
+	    inner join kela_order_part.ecs_order_info old on oi.id = old.order_id
+	set
+	    oi.department_id = sc.id
+	where 
+	    oi.id < 1935211
+	    AND oi.department_id != sc.id
+
+##referer
+    update 
+        app_order.base_order_info oi
+        inner join kela_order_part.ecs_order_info old on oi.id = old.order_id
+    set
+        oi.referer = old.referer
+    where 
+        old.referer in ('网络订单','婚博会','展厅订单','批量导入','快速入单','管理员添加','工厂备货单','系统抓单','淘宝用户下单','主站','本站','网站');
+    update 
+        app_order.base_order_info oi
+        inner join kela_order_part.ecs_order_info old on oi.id = old.order_id
+    set
+        oi.referer = '管理员添加'
+    where 
+        old.referer like '管理员添加%';
+    update 
+        app_order.base_order_info oi
+        inner join kela_order_part.ecs_order_info old on oi.id = old.order_id
+    set
+        oi.referer = '婚博会'
+    where 
+        old.referer like '%婚博会%';
+    update 
+        app_order.base_order_info oi
+        inner join kela_order_part.ecs_order_info old on oi.id = old.order_id
+    set
+        oi.referer = '展厅订单'
+    where 
+        old.referer like '%展厅%';
+
+
+    select 
+        oi.referer,old.referer
+    from
+        app_order.base_order_info oi
+        inner join kela_order_part.ecs_order_info old on oi.id = old.order_id
+    where 
+        oi.id < 1935211
+
+##bc_id
+	update app_order_details set bc_id =0 where order_id < 1935211;
+
+[各种状态出错]
+	SELECT oi.*
+	FROM 
+		app_order.`base_order_info` oi 
+	WHERE 
+		oi.id <= 1935211
+		AND 
+		(oi.order_status = 99 or oi.order_pay_status = 99 or oi.send_good_status = 99  or oi.delivery_status = 99 OR oi.order_pay_type=0 or customer_source_id = 0 or department_id = 0)
+
+
+[制单人异常]
+	##2015041565126 : 制单人是 0 可以通过操作日志回写 关键字："批量导入订单"
+
+	select 
+		oi.order_sn,oi.referer 
+	from 
+		app_order.`base_order_info` oi 
+		inner join app_order.app_order_action oa on oa.order_id = oi.id
+	where 
+		oi.create_user = '0'
+		AND oa.remark like '批量导入订单%'
+		AND oi.create_time like '2015-04%'
+	group by 
+		oi.id;
+
+
+[目前未完成]
+	1.发票表，【别于订单发票表】
+	2.货品订单绑定
+	3.订单商品 证书号
+	4.订单基本信息 手机号
+	5.订单地址，四级
+	6.异常处理
+
+

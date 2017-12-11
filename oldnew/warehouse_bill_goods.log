@@ -1,0 +1,1331 @@
+exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'bill_id' at row 1' in D:\wamp\www\test\oldnew\MysqlDB.class.php:156
+Stack trace:
+#0 D:\wamp\www\test\oldnew\MysqlDB.class.php(156): PDOStatement->execute(Array)
+#1 D:\wamp\www\test\oldnew\MysqlDB.class.php(70): MysqlDB->autoExec(Array, 'warehouse_bill_...')
+#2 D:\wamp\www\test\oldnew\orderO.php(176): MysqlDB->insert('warehouse_bill_...', Array)
+#3 {main}
